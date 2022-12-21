@@ -50,8 +50,6 @@ public class Player : MonoBehaviour
             gameManager.GetComponent<GameManager>().DecreaseHp();//扣血
             print("0");
         }
-      if (collision.tag == "fish")
-            gameManager.GetComponent<GameManager>().addhp();//加血
-
+    
     }
 }
